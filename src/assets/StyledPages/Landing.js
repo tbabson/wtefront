@@ -42,7 +42,7 @@ h1 span{
     font-size: 2.75rem;
 }
 
-@media (min-width: 510px) {
+@media (min-width: 576px) {
     .hero-text{
     margin-top: 25rem;
     margin-left: 3rem;
