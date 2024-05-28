@@ -57,7 +57,7 @@ h1 span{
 }
 
 .hero-text{
-    margin-top: 25rem;
+    margin-top: 28rem;
     margin-left: 5rem;
 }
 
