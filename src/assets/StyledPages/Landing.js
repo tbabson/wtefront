@@ -42,7 +42,7 @@ h1 span{
     font-size: 2.75rem;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     .hero-text{
     margin-top: 25rem;
     margin-left: 3rem;
@@ -51,7 +51,7 @@ h1 span{
 
 ////////////* tab DISPLAY *///////
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 .hero{
     margin-top: -120px;   
     min-height: 100vh;
@@ -81,7 +81,7 @@ h1 span{
 }
 
 
-@media (min-width: 810px) {
+@media screen and (min-width: 810px) {
 .hero{
     margin-top: -120px;   
     min-height: 100vh;
@@ -113,7 +113,7 @@ h1 span{
 
 
 ////////////* desk DISPLAY */////// 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
    .hero{
     margin-top: -120px;   
     min-height: 100vh;
