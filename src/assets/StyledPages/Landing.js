@@ -42,6 +42,12 @@ h1 span{
     font-size: 2.75rem;
 }
 
+@media (min-width: 510px) {
+    .hero-text{
+    margin-top: 25rem;
+    margin-left: 3rem;
+}
+}
 
 ////////////* tab DISPLAY *///////
 
@@ -72,9 +78,39 @@ h1 span{
     font-weight: 800;
     font-size: 5.5rem;
 }
-
-
 }
+
+
+@media (min-width: 810px) {
+.hero{
+    margin-top: -120px;   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+
+.hero-text{
+    margin-top: 28rem;
+    margin-left: 5rem;
+}
+
+.hero-text h3{
+    font-weight: 600;
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+
+.hero-text h1{
+    font-weight: 800;
+    font-size: 5.5rem;
+}
+}
+
+
 
 ////////////* desk DISPLAY */////// 
 @media (min-width: 992px){
@@ -101,7 +137,7 @@ h1 span{
 
 .hero-text h1{
     font-weight: 800;
-    font-size: 7.5rem;
+    font-size: 7.2rem;
 }
 }
 
