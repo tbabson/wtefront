@@ -1,5 +1,22 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { HomeLayout, Blog, Profile, Cart, Error, Landing } from "./pages";
+import {
+  HomeLayout,
+  Blog,
+  Profile,
+  Cart,
+  Error,
+  Foods,
+  SingleFood,
+  Checkout,
+  Orders,
+  Admin,
+  ChangePassword,
+  Login,
+  Register,
+  AddFood,
+  UpdateFood,
+  DeleteFood,
+} from "./pages";
 
 const router = createBrowserRouter([
   {
@@ -9,7 +26,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Landing />,
+        element: <Foods />,
+      },
+      {
+        path: "foods/:id",
+        element: <SingleFood />,
       },
       {
         path: "blog",
@@ -22,6 +43,48 @@ const router = createBrowserRouter([
       {
         path: "cart",
         element: <Cart />,
+      },
+      {
+        path: "checkout",
+        element: <Checkout />,
+      },
+      {
+        path: "orders",
+        element: <Orders />,
+      },
+    ],
+  },
+  {
+    path: "login",
+    element: <Login />,
+    errorElement: <Error />,
+  },
+  {
+    path: "register",
+    element: <Register />,
+    errorElement: <Error />,
+  },
+  {
+    path: "changePassword",
+    element: <ChangePassword />,
+    errorElement: <Error />,
+  },
+  {
+    path: "admin",
+    element: <Admin />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: "addFood",
+        element: <AddFood />,
+      },
+      {
+        path: "updateFood",
+        element: <UpdateFood />,
+      },
+      {
+        path: "deleteFood",
+        element: <DeleteFood />,
       },
     ],
   },

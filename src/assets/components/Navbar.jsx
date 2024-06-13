@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../components/Logo";
 import Wrapper from "../StyledPages/Navbar";
 
@@ -7,7 +7,9 @@ const Navbar = () => {
     <Wrapper>
       <div className="nav-center">
         <div className="logo">
-          <Logo />
+          <Link to="/">
+            <Logo />
+          </Link>
         </div>
         <div className="nav-links">
           <NavLink to="/" className="nav-link">
