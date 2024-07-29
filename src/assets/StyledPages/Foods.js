@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
 .hero{
     margin-top: -288px;
-    min-height: 55vh;
+    min-height: 40vh;
     background: url("../Images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
