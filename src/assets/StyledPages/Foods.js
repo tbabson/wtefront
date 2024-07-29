@@ -4,7 +4,6 @@ const Wrapper = styled.div`
 .hero{
     margin-top: -288px;
     min-height: 40vh;
-    background: url("../Images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,18 +16,20 @@ const Wrapper = styled.div`
 }
 
 .hero-text{
-    margin-top: 20rem;
-    margin-left: 3rem;
+    text-align: center;
+    margin: 30rem auto 0 auto;    
 }
 
 .hero-text h3{
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    
+    color: var(--primary-900)
 }
 
 h3 span{
-    color: var(--primary-900)
+    color: var(--secondary-900)
 }
 
 h1 span{
@@ -38,13 +39,14 @@ h1 span{
 .hero-text h1{
     font-weight: 800;
     font-size: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
+    color: var(--secondary-900)
 }
 
 @media screen and (min-width: 576px) {
     .hero-text{
     margin-top: 25rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
 }
 }
 
@@ -63,7 +65,7 @@ h1 span{
 
 .hero-text{
     margin-top: 28rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .hero-text h3{
@@ -93,7 +95,7 @@ h1 span{
 
 .hero-text{
     margin-top: 28rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .hero-text h3{
@@ -124,8 +126,8 @@ h1 span{
 }
 
 .hero-text{
-    margin-top: 20rem;
-    margin-left: 8rem;
+    margin-top: 25rem;
+    /* margin-left: 8rem; */
 }
 
 .hero-text h3{

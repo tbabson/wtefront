@@ -1,5 +1,5 @@
 import Wrapper from "../assets/StyledPages/Foods";
-import imageP from "../assets/Images/landing.webp";
+import imageP from "../assets/Images/landing2.webp";
 import { RiSearchFill } from "react-icons/ri";
 import { GiCookingPot } from "react-icons/gi";
 import { GiShoppingBag } from "react-icons/gi";
@@ -10,18 +10,16 @@ const Foods = () => {
       <div
         className="hero"
         style={{
-          backgroundImage: `linear-gradient(rgba(227,119,43,0.3),rgba(0,0,0,0)), url(${imageP})`,
+          backgroundImage: `url(${imageP})`,
         }}
       >
         <div className="hero-text">
           <h3>
-            Savor the <span>Moment,</span>
+            Savor the <span>Moment,</span> Share with <span>Joy,</span>
           </h3>
-          <h3>
-            Share with <span>Joy,</span>
-          </h3>
+
           <h1>
-            cook with <br /> <span>Love!</span>
+            cook with <span>Love!</span>
           </h1>
         </div>
       </div>
