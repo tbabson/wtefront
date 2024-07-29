@@ -17,13 +17,13 @@ const Wrapper = styled.div`
 }
 
 .hero-text{
-    margin-top: 30rem;
+    margin-top: 20rem;
     margin-left: 3rem;
 }
 
 .hero-text h3{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -37,7 +37,8 @@ h1 span{
 
 .hero-text h1{
     font-weight: 800;
-    font-size: 2.75rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 576px) {
