@@ -18,13 +18,16 @@ const Wrapper = styled.div`
 .hero-text{
     text-align: center;
     margin: 30rem auto 0 auto;    
+    width: 50vw;
+    line-height: 1.5rem;
+
 }
 
 .hero-text h3{
     font-weight: 600;
     font-size: 1rem;
+    //line-height: 1.5rem;
     margin-bottom: 0.5rem;
-    
     color: var(--primary-900)
 }
 
@@ -39,33 +42,25 @@ h1 span{
 .hero-text h1{
     font-weight: 800;
     font-size: 2rem;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
     color: var(--secondary-900)
 }
 
 @media screen and (min-width: 576px) {
     .hero-text{
     margin-top: 25rem;
-    /* margin-left: 3rem; */
+    width: 60vw;
+
 }
 }
 
 ////////////* tab DISPLAY *///////
 
 @media screen and (min-width: 768px) {
-.hero{
-    margin-top: -120px;   
-    min-height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: flex-start;
-    text-transform: uppercase;
-}
 
 .hero-text{
-    margin-top: 28rem;
-    /* margin-left: 5rem; */
+    margin-top: 40rem;
+    min-width: 60vw
 }
 
 .hero-text h3{
@@ -82,20 +77,10 @@ h1 span{
 }
 
 
-@media screen and (min-width: 810px) {
-.hero{
-    margin-top: -120px;   
-    min-height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: flex-start;
-    text-transform: uppercase;
-}
-
+@media screen and (min-width: 820px) {
 .hero-text{
-    margin-top: 28rem;
-    /* margin-left: 5rem; */
+    margin-top: 49rem;
+    width: 75vw
 }
 
 .hero-text h3{
@@ -115,18 +100,10 @@ h1 span{
 
 ////////////* desk DISPLAY */////// 
 @media screen and (min-width: 992px){
-   .hero{
-    margin-top: -120px;   
-    min-height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: flex-start;
-    text-transform: uppercase;
-}
-
+  
 .hero-text{
-    margin-top: 25rem;
+    margin-top: 35rem;
+    //line-height: 1.5rem;
     /* margin-left: 8rem; */
 }
 
