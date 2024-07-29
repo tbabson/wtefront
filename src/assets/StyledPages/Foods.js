@@ -168,16 +168,34 @@ padding: 1rem;
     margin-bottom: 0.5rem;
 }
 
+.divider{
+    background: var(--secondary-500);
+    width: 50vw;
+   margin: auto;
+  color: var(--secondary-900);
+  height: 0.1px;
+}
+
+@media (min-width: 992px){
+.divider{
+    width: 85vw;
+   height: 0.5px;
+}
+
+}
+
+
 .welcome-center{
-      display: flex;
+display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-500);;
-  padding: 0 3rem;
+  padding: 2.5rem 3rem;
   text-align: center;
   color: var(--secondary-900);
 min-width: 60vw;
+
 }
 
 .welcome-content h3{

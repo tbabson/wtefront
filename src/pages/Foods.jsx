@@ -36,6 +36,8 @@ const Foods = () => {
         </div>
       </div>
 
+      <hr className="divider" />
+
       <div className="welcome-center">
         <div className="welcome-content">
           <h3>
