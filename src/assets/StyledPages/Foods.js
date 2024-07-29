@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
 .hero{
     margin-top: -288px;
-    min-height: 100vh;
+    min-height: 55vh;
     background: url("../Images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ h1 span{
 @media screen and (min-width: 768px) {
 .hero{
     margin-top: -120px;   
-    min-height: 100vh;
+    min-height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -82,7 +82,7 @@ h1 span{
 @media screen and (min-width: 810px) {
 .hero{
     margin-top: -120px;   
-    min-height: 100vh;
+    min-height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -114,7 +114,7 @@ h1 span{
 @media screen and (min-width: 992px){
    .hero{
     margin-top: -120px;   
-    min-height: 100vh;
+    min-height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -140,7 +140,7 @@ h1 span{
 }
 
 
-/* HOWT TO USE WEBSITE */
+/* HOW TO USE WEBSITE */
 
 .how-to{
     background: var(--secondary-500);
