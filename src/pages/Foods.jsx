@@ -21,22 +21,23 @@ const Foods = () => {
         </div>
       </div>
 
-      <div className="how-to">
-        <div className="how-to-icon">
-          <RiSearchFill className="how-icons" />
-          <h3>Search for meals</h3>
+      <div className="how-to-container">
+        <div className="how-to">
+          <div className="how-to-icon">
+            <RiSearchFill className="how-icons" />
+            <h3>Search for meals</h3>
+          </div>
+          <div className="how-to-icon">
+            <GiCookingPot className="how-icons" />
+            <h3>Know how to cook it</h3>
+          </div>
+          <div className="how-to-icon">
+            <GiShoppingBag className="how-icons" />
+            <h3>Order the ingredients</h3>
+          </div>
         </div>
-        <div className="how-to-icon">
-          <GiCookingPot className="how-icons" />
-          <h3>Know how to cook it</h3>
-        </div>
-        <div className="how-to-icon">
-          <GiShoppingBag className="how-icons" />
-          <h3>Order the ingredients</h3>
-        </div>
+        <div className="divider"></div>
       </div>
-
-      <hr className="divider" />
 
       <div className="welcome-center">
         <div className="welcome-content">

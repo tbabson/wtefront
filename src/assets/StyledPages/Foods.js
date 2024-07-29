@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 
 .hero-text{
     text-align: center;
-    margin: 30rem auto 0 auto;    
+    margin: 40rem auto 0 auto;    
     //width: 50vw;
     line-height: 1.5rem;
 
@@ -49,7 +49,7 @@ h1 span{
 
 @media screen and (min-width: 576px) {
     .hero-text{
-    margin-top: 25rem;
+    margin-top: 40rem;
     width: 60vw;
 
 }
@@ -120,9 +120,9 @@ h1 span{
 @media screen and (min-width: 992px){
   
 .hero-text{
-    margin-top: 40rem;
+    margin-top: 45rem;
     line-height: 1.5rem;
-    /* margin-left: 8rem; */
+   
 }
 
 .hero-text h3{
@@ -168,18 +168,21 @@ padding: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.divider{
+.how-to-container{
     background: var(--secondary-500);
-    width: 50vw;
-   margin: auto;
-  color: var(--secondary-900);
-  height: 0.1px;
+}
+
+.divider{
+   width: 75vw;
+  height: 1px;
+  background-color: var(--secondary-900);
+  margin: 0 auto;
 }
 
 @media (min-width: 992px){
 .divider{
-    width: 85vw;
-   height: 0.5px;
+    width: 65vw;
+   height: 1px;
 }
 
 }
