@@ -80,7 +80,7 @@ h1 span{
 
 @media screen and (min-width: 820px) {
 .hero-text{
-    margin-top: 49rem;
+    margin-top: 52rem;
     width: 75vw
 }
 
@@ -96,15 +96,32 @@ h1 span{
     font-size: 5.5rem;
 }
 }
+@media screen and (min-width: 768px) {
+
+.hero-text{
+    margin-top: 40rem;
+    min-width: 60vw
+}
+
+.hero-text h3{
+    font-weight: 600;
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
 
 
+.hero-text h1{
+    font-weight: 800;
+    font-size: 5.5rem;
+}
+}
 
 ////////////* desk DISPLAY */////// 
 @media screen and (min-width: 992px){
   
 .hero-text{
-    margin-top: 35rem;
-    //line-height: 1.5rem;
+    margin-top: 40rem;
+    line-height: 1.5rem;
     /* margin-left: 8rem; */
 }
 
@@ -151,6 +168,25 @@ padding: 1rem;
     margin-bottom: 0.5rem;
 }
 
+.welcome-center{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-500);;
+  padding: 0 3rem;
+  text-align: center;
+  color: var(--secondary-900);
+min-width: 60vw;
+}
+
+.welcome-content h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+}
+
 ////////////* DESKTOP DISPLAY *///////
 
 @media (min-width: 768px){
@@ -181,6 +217,7 @@ padding: 1rem;
     color: var(--secondary-900);
     margin-bottom: 0.5rem;
 }
+
 
 
 }

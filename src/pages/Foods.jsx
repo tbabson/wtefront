@@ -3,6 +3,8 @@ import imageP from "../assets/Images/landing2.webp";
 import { RiSearchFill } from "react-icons/ri";
 import { GiCookingPot } from "react-icons/gi";
 import { GiShoppingBag } from "react-icons/gi";
+import Greeting from "../utils/greeting";
+import Menu from "../utils/menu";
 
 const Foods = () => {
   return (
@@ -31,6 +33,17 @@ const Foods = () => {
         <div className="how-to-icon">
           <GiShoppingBag className="how-icons" />
           <h3>Order the ingredients</h3>
+        </div>
+      </div>
+
+      <div className="welcome-center">
+        <div className="welcome-content">
+          <h3>
+            <Greeting />
+          </h3>
+          <h3>
+            <Menu />
+          </h3>
         </div>
       </div>
     </Wrapper>
