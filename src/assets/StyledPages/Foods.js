@@ -4,6 +4,7 @@ const Wrapper = styled.div`
 .hero{
     margin-top: -288px;
     min-height: 40vh;
+    background-image: url("landing2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
 .hero-text{
     text-align: center;
     margin: 30rem auto 0 auto;    
-    width: 50vw;
+    //width: 50vw;
     line-height: 1.5rem;
 
 }

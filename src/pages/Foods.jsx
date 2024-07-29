@@ -7,12 +7,7 @@ import { GiShoppingBag } from "react-icons/gi";
 const Foods = () => {
   return (
     <Wrapper>
-      <div
-        className="hero"
-        style={{
-          backgroundImage: `url(${imageP})`,
-        }}
-      >
+      <div className="hero">
         <div className="hero-text">
           <h3>
             Savor the <span>Moment,</span> Share with <span>Joy,</span>
