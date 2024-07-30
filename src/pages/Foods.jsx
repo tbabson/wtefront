@@ -1,5 +1,4 @@
 import Wrapper from "../assets/StyledPages/Foods";
-import imageP from "../assets/Images/landing2.webp";
 import { RiSearchFill } from "react-icons/ri";
 import { GiCookingPot } from "react-icons/gi";
 import { GiShoppingBag } from "react-icons/gi";
