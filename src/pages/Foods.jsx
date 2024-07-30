@@ -20,7 +20,19 @@ const Foods = () => {
         </div>
       </div>
 
+      <div className="welcome-center">
+        <div className="welcome-content">
+          <h3>
+            <Greeting />
+          </h3>
+          <h3>
+            <Menu />
+          </h3>
+        </div>
+      </div>
+
       <div className="how-to-container">
+        <div className="divider"></div>
         <div className="how-to">
           <div className="how-to-icon">
             <RiSearchFill className="how-icons" />
@@ -34,18 +46,6 @@ const Foods = () => {
             <GiShoppingBag className="how-icons" />
             <h3>Order the ingredients</h3>
           </div>
-        </div>
-        <div className="divider"></div>
-      </div>
-
-      <div className="welcome-center">
-        <div className="welcome-content">
-          <h3>
-            <Greeting />
-          </h3>
-          <h3>
-            <Menu />
-          </h3>
         </div>
       </div>
     </Wrapper>
