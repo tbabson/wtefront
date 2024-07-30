@@ -20,6 +20,7 @@ const Foods = () => {
         </div>
       </div>
 
+      {/* <div className="divider1"></div> */}
       <div className="welcome-center">
         <div className="welcome-content">
           <h3>
@@ -32,7 +33,7 @@ const Foods = () => {
       </div>
 
       <div className="how-to-container">
-        <div className="divider"></div>
+        <div className="divider2"></div>
         <div className="how-to">
           <div className="how-to-icon">
             <RiSearchFill className="how-icons" />

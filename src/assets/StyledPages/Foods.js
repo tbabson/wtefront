@@ -172,7 +172,13 @@ padding: 1rem;
     background: var(--secondary-500);
 }
 
-.divider{
+.divider1{
+   width: 100vw;
+  height: 3px;
+  background-color: var(--secondary-900);
+  margin: 0 auto;
+}
+.divider2{
    width: 75vw;
   height: 1px;
   background-color: var(--secondary-900);
