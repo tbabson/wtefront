@@ -59,7 +59,7 @@ a.nav-link{
 }
 
   .nav-toggle:hover {
-    color: var(--primary-700);
+    color: var(--secondary-900);
   }
   .nav-links-container {
     /* height: 0; */
@@ -83,10 +83,11 @@ a.nav-link{
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 0;
+    
   }
   .nav-link {
-    font-weight: 500;
-    color: var(--white);
+    font-weight: 700;
+    color: var(--primary-900);
     transition: var(--transition);
     letter-spacing: var(--letter-spacing);
   }

@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 
 .hero-text{
     text-align: center;
-    margin: 40rem auto 0 auto;    
+    margin: 45rem auto 0 auto;    
     //width: 50vw;
     line-height: 1.5rem;
 
