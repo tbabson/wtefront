@@ -9,6 +9,9 @@ const Wrapper = styled.nav`
     margin: 0 auto;
     padding: 1rem;
   }
+ 
+
+
   .nav-display {
     display: flex;
     justify-content: space-between;
@@ -19,6 +22,21 @@ const Wrapper = styled.nav`
     height: auto;
     margin-top: 0.5rem;
   }
+
+@media (max-width: 800px){
+.nav-center {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+ .logo {
+    width: 130px;
+    height: auto;
+    margin-top: 0.5rem;
+  }
+}
+
   .nav-toggle {
     font-size: 2rem;
     color: var(--primary-900);
@@ -94,6 +112,7 @@ a.nav-link{
   .active span {
     color: var(--secondary-900);
   }
+
 
   @media (min-width: 800px) {
     .nav-toggle {
