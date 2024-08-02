@@ -92,7 +92,7 @@ a.nav-link{
     letter-spacing: var(--letter-spacing);
   }
   .nav-link:hover {
-    color: var(--primary-900);
+    color: var(--secondary-900);
   }
   .nav-link span {
     font-weight: 500;

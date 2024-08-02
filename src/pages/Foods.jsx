@@ -1,9 +1,9 @@
 import Wrapper from "../assets/StyledPages/Foods";
 import { RiSearchFill } from "react-icons/ri";
-import { GiCookingPot } from "react-icons/gi";
-import { GiShoppingBag } from "react-icons/gi";
+import { GiCookingPot, GiShoppingBag } from "react-icons/gi";
 import Greeting from "../utils/greeting";
 import Menu from "../utils/menu";
+import SearchContainer from "../assets/components/SearchContainer";
 
 const Foods = () => {
   return (
@@ -23,12 +23,8 @@ const Foods = () => {
       {/* <div className="divider1"></div> */}
       <div className="welcome-center">
         <div className="welcome-content">
-          <h3>
-            <Greeting />
-          </h3>
-          <h3>
-            <Menu />
-          </h3>
+          <Greeting />
+          <Menu />
         </div>
       </div>
 
@@ -48,6 +44,10 @@ const Foods = () => {
             <h3>Order the ingredients</h3>
           </div>
         </div>
+      </div>
+
+      <div>
+        <SearchContainer />
       </div>
     </Wrapper>
   );

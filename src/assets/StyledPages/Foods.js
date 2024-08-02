@@ -16,6 +16,7 @@ const Wrapper = styled.div`
     background-attachment: fixed;
 }
 
+
 .hero-text{
     text-align: center;
     margin: 45rem auto 0 auto;    
@@ -60,7 +61,7 @@ h1 span{
 @media screen and (min-width: 768px) {
 
 .hero-text{
-    margin-top: 40rem;
+    margin-top: 37rem;
     min-width: 60vw
 }
 
@@ -77,30 +78,29 @@ h1 span{
 }
 }
 
+
+@media screen and (min-width: 768px) {
+.hero-text{
+    margin-top: 40rem;
+    min-width: 60vw
+}
+
+.hero-text h3{
+    font-weight: 600;
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text h1{
+    font-weight: 800;
+    font-size: 5.5rem;
+}
+}
 
 @media screen and (min-width: 820px) {
 .hero-text{
     margin-top: 52rem;
     width: 75vw
-}
-
-.hero-text h3{
-    font-weight: 600;
-    font-size: 2.75rem;
-    margin-bottom: 1rem;
-}
-
-
-.hero-text h1{
-    font-weight: 800;
-    font-size: 5.5rem;
-}
-}
-@media screen and (min-width: 768px) {
-
-.hero-text{
-    margin-top: 40rem;
-    min-width: 60vw
 }
 
 .hero-text h3{
@@ -244,10 +244,9 @@ padding: 1rem;
     color: var(--secondary-900);
     margin-bottom: 0.5rem;
 }
-
-
-
 }
+
+
 
 
 `
