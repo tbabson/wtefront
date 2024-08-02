@@ -7,7 +7,7 @@ const Wrapper = styled.div`
  padding: 0rem 2rem 1rem; 
 
 .form {
-    margin: 0;
+    margin: 0 auto 1rem;
     border-radius: 0;
     box-shadow: none;
     padding: 0;
