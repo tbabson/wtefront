@@ -28,7 +28,7 @@ const SearchContainer = () => {
               submit(e.currentTarget.form);
             }}
           />
-          <Link to="/foods/all-foods" className="btn form-btn delete-btn">
+          <Link to="/" className="btn form-btn delete-btn">
             Reset Search
           </Link>
         </div>
