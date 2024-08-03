@@ -1,6 +1,6 @@
 import { FormRow, FormRowSelect } from ".";
 import { Form, useSubmit, Link } from "react-router-dom";
-import { MEAL, COUNTRY, SORT_BY } from "../../../../utils/constants.js";
+import { MEAL, COUNTRY, SORT_BY } from "../../utils/constants.js";
 import Wrapper from "../StyledPages/FoodForm.js";
 
 const SearchContainer = () => {
