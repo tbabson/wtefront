@@ -210,6 +210,7 @@ button:disabled {
   background: var(--secondary-600);
   border: 1.5px solid var(--secondary-900);
   color: var(--secondary-900);
+  cursor: pointer;
 }
 
 .form-row {
