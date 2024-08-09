@@ -3,7 +3,7 @@ import { RiSearchFill } from "react-icons/ri";
 import { GiCookingPot, GiShoppingBag } from "react-icons/gi";
 import Greeting from "../utils/greeting";
 import Menu from "../utils/menu";
-import SearchContainer from "../assets/components/SearchContainer";
+import SearchContainer from "../components/SearchContainer";
 
 const Foods = () => {
   return (

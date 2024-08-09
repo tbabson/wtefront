@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import Logo from "../components/Logo";
-import Wrapper from "../StyledPages/Navbar";
+import Wrapper from "../assets/StyledPages/Navbar";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navbar = () => {

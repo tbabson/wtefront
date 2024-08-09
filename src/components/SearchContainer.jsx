@@ -1,7 +1,7 @@
 import { FormRow, FormRowSelect } from ".";
 import { Form, useSubmit, Link } from "react-router-dom";
-import { MEAL, COUNTRY, SORT_BY } from "../../utils/constants.js";
-import Wrapper from "../StyledPages/FoodForm.js";
+import { MEAL, COUNTRY, SORT_BY } from "../../../utils/constants.js";
+import Wrapper from "../assets/StyledPages/FoodForm.js";
 
 const SearchContainer = () => {
   return (
@@ -18,7 +18,7 @@ const SearchContainer = () => {
             labelText="country"
             name="country"
             list={["all", ...Object.values(COUNTRY)]}
-            defaultValue="Nigeria"
+            defaultValue="all"
           />
           <FormRowSelect
             name={"sort"}

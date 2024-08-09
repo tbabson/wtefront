@@ -1,4 +1,4 @@
-import logo from "../Images/wteLogo.svg";
+import logo from "../assets/Images/wteLogo.svg";
 
 const Logo = () => {
   return <img src={logo} alt="whatToEatLogo" className="logo" />;
