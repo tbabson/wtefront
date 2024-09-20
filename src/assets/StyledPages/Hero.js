@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
 .hero{
-    margin-top: -288px;
+   margin-top: -400px;
     min-height: 40vh;
     background-image: url("landing2.webp");
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ h1 span{
 
 .how-to-icon{
 margin: auto;
-width: 95%;
+width: 85%;
 margin: 1.5rem 0;
 padding: 1rem;
 }
@@ -228,7 +228,7 @@ min-width: 60vw;
 
 .how-to-icon{
 margin: auto;
-width: 95%;
+width: 85%;
 margin: 3rem 0;
 padding: 1rem;
 }

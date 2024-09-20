@@ -18,15 +18,24 @@ import {
   DeleteFood,
 } from "./pages";
 
+import { action as registerAction } from "./pages/Register";
+import { action as loginAction } from "./pages/Login";
+import { store } from "./store";
+//import { loader as homeLoader } from "./pages/HomeLayout";
+import { loader as foodLoader } from "./pages/Foods";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLayout />,
+    //loader: homeLoader,
     errorElement: <Error />,
     children: [
       {
         index: true,
         element: <Foods />,
+        loader: foodLoader,
+        errorElement: <Error />,
       },
       {
         path: "foods/:id",
@@ -58,10 +67,12 @@ const router = createBrowserRouter([
     path: "login",
     element: <Login />,
     errorElement: <Error />,
+    action: loginAction(store),
   },
   {
     path: "register",
     element: <Register />,
+    action: registerAction,
     errorElement: <Error />,
   },
   {

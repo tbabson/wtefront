@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../components/Logo";
+import { LogoutContainer, Logo } from "../components";
 import Wrapper from "../assets/StyledPages/Navbar";
 import { IoMenu, IoClose } from "react-icons/io5";
 
@@ -39,8 +39,12 @@ const Navbar = () => {
                 Profile
               </NavLink>
               <NavLink to="/cart" className="nav-link" onClick={toggleMenu}>
-                <span>Cart</span>
+                Cart
               </NavLink>
+              <LogoutContainer className="logoutNav" />
+              {/* <NavLink to="/login" className="nav-link" onClick={toggleMenu}>
+                <span>Login</span>
+              </NavLink> */}
             </div>
           </div>
         </div>

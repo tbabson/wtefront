@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.nav`
   background: var(--transparent-background);
   position: relative;
+
   .nav-center {
     width: 80%;
     max-width: 80%;
@@ -10,7 +11,6 @@ const Wrapper = styled.nav`
     padding: 1rem;
   }
  
-
 
   .nav-display {
     display: flex;
@@ -58,17 +58,17 @@ a.nav-link{
       
 }
 
+
   .nav-toggle:hover {
     color: var(--secondary-900);
   }
   .nav-links-container {
-    /* height: 0; */
     overflow: hidden;
     transition: var(--transition);
     position: absolute;  // Change this from relative to absolute
     top: 100%;  // Position it right below the navbar
     left: 0;
-    right: 30px;
+    right: 40px;
     background: var(--transparent-background);  // Add background
     overflow: hidden;
     transition: var(--transition);
@@ -76,17 +76,18 @@ a.nav-link{
   }
   .show-menu {
     /* height: auto; */
-    max-height: 300px;  // Adjust this value as needed
+    max-height: 500px;  // Adjust this value as needed
   }
   .nav-links {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 1rem 0;
-    
+    align-items: flex-end;
+    height: 300px;
   }
   .nav-link {
-    font-weight: 700;
+    font-weight: 600;
     color: var(--primary-900);
     transition: var(--transition);
     letter-spacing: var(--letter-spacing);
@@ -98,7 +99,7 @@ a.nav-link{
     font-weight: 500;
     color: var(--primary-900);
     background-color: var(--white);
-    padding: 0.4rem 1.5rem;
+    padding: 0.4rem 0.7rem;
     transition: var(--transition);
     letter-spacing: var(--letter-spacing);
     border-radius: var(--border-radius);
@@ -120,11 +121,7 @@ a.nav-link{
       display: none;
     }
     .nav-links-container {
-      /* height: auto !important;
-      z-index: 1050;
-         display:flex;
-      justify-content: flex-end;  */
-      position: static;  // Reset position for larger screens
+           position: static;  // Reset position for larger screens
       max-height: none;  // Reset max-height
       overflow: visible;
       background: none;  // Remove background
@@ -133,9 +130,21 @@ a.nav-link{
       justify-content: flex-end;
       margin-top: -3.5rem;
     }
+    /* .nav-display {
+        display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  } */
+.nav-link {
+    margin-top: 8px;
+  }
+
     .nav-links {
+      margin-top: -20px;
       flex-direction: row;
-      gap: 0.5rem;
+      justify-items: center;
+      align-items: normal;
+      gap: 0.8rem;
     }
   }
 `

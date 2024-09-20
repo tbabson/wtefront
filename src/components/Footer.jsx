@@ -40,18 +40,18 @@ const Footer = () => {
             <p>
               We send out food recommendation from our chef and nutritionist.
             </p>
-          </div>
-          <div className="subscribe">
-            <Form className="footerForm">
-              <input
-                type="email"
-                placeholder="your email"
-                className="footerInput"
-              />
-              <button type="submit" className=" btn-footer">
-                Subscribe
-              </button>
-            </Form>
+            <div className="subscribe">
+              <Form className="footerForm">
+                <input
+                  type="email"
+                  placeholder="your email"
+                  className="footerInput"
+                />
+                <button type="submit" className=" btn-footer">
+                  Subscribe
+                </button>
+              </Form>
+            </div>
           </div>
         </div>
       </footer>

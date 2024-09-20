@@ -2,14 +2,26 @@ import styled from "styled-components";
 
 const Wrapper = styled.footer`
 background: var(--primary-600);
- width: 100%;
+ /* width: 100%;  */
 .footerContainer{
-    display: flex;
+       /* width: 70vw;
+  max-width: var(--fixed-width);
+  margin: 4rem auto 0;
+  text-align: left;
+  padding-bottom: 2rem; */
+
+    /* display: flex;
     flex-direction: column;
     //align-content: flex-start;
     justify-content: center;
     text-align: left;
-    padding-left: 1.5rem;
+    padding-left: 1.5rem; */
+    
+    display: grid;
+    row-gap: 1rem;
+    width: 0 85%;
+    margin: 0 2rem;
+    
 
 }
 
@@ -57,7 +69,7 @@ letter-spacing: 1px;
 
 .footerLink{
      color: var(--secondary-900);
-     font-size: 1.2rem;
+     font-size: 1rem;
      margin-top: 0.8rem;
      font-weight: 600;
 }
@@ -97,7 +109,7 @@ letter-spacing: 1px;
 
 .footerNote p{
 max-width: 50%;
-   margin-bottom: 0.4rem;
+   margin-bottom: 4rem;
    color: var(--secondary-900);
    line-height: 1.2rem;
 }
@@ -136,13 +148,20 @@ max-width: 50%;
 
  @media (min-width: 576px){
 .footerContainer{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     //align-content: flex-start;
     justify-content: center;
     text-align: left;
     padding-left: 5rem;
-    background-color: var(--primary-600);
+    background-color: var(--primary-600); */
+
+    grid-template-columns: 1fr ;
+      justify-items: flex-start;
+      align-items: center;
+      column-gap: 1rem;
+      width: 100%;
+      margin-left: 2.3rem;
 }
 
 /* .logo{
@@ -160,14 +179,17 @@ footer{
 }
 
 .footerContainer{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+      justify-items: flex-start;
+      align-items: center;
+      column-gap: 1rem;
+      width: 100%;
+      margin: 0 auto;
+
     text-align: left;
-    padding: 4rem 0 0 ;
+    padding: 2rem 4rem ;
     background-color: var(--primary-600);
-    min-width: 85%
+  
 }
 
 /* .logo{

@@ -156,8 +156,8 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--secondary-700);
-  box-shadow: var(--shadow-3);
+  background: var(--primary-800);
+  box-shadow: var(--shadow-1);
 }
 .btn-hipster {
   color: var(--primary-500);
@@ -183,25 +183,25 @@ button:disabled {
 }
 
 /* forms */
-.form {
+/* .form {
   width: 90vw;
   max-width: var(--fixed-width);
   background: var(--secondary-500);
-  /* border-radius: var(--border-radius); */
+  border-radius: var(--border-radius);
   padding: 1rem 2rem;
   margin: 0 auto;
-}
+} */
 
-.form-label {
+/* .form-label {
   display: block;
   font-size: var(--small-text);
   margin-bottom: 0.2rem;
   text-transform: capitalize;
   line-height: 1.5;
   color: var(--secondary-900);
-}
+} */
 
-.form-input,
+/* .form-input,
 .form-textarea,
 .form-select {
   width: 100%;
@@ -211,15 +211,15 @@ button:disabled {
   border: 1.5px solid var(--secondary-900);
   color: var(--secondary-900);
   cursor: pointer;
-}
+} */
 
-.form-row {
+/* .form-row {
   margin-bottom: 1rem;
-}
+} */
 
-.form-textarea {
+/* .form-textarea {
   height: 7rem;
-}
+} */
 
 ::placeholder {
   font-family: inherit;
@@ -228,4 +228,19 @@ button:disabled {
 .form-alert {
   color: var(--red-dark);
   text-transform: capitalize;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  animation: spinner 0.6s linear infinite;
 }
